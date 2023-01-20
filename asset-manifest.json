@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-home-practice07.1/static/css/main.7acaea2f.css",
+    "main.js": "/react-home-practice07.1/static/js/main.aa3221db.js",
+    "index.html": "/react-home-practice07.1/index.html",
+    "main.7acaea2f.css.map": "/react-home-practice07.1/static/css/main.7acaea2f.css.map",
+    "main.aa3221db.js.map": "/react-home-practice07.1/static/js/main.aa3221db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.aa3221db.js"
+  ]
+}
