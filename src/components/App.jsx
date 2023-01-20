@@ -8,10 +8,9 @@ import { useState } from 'react';
 function App() {
   const [count, setCouunt] = useState('');
   const [newProduct, setNewProduct] = useState('');
-
   // запрос на сервер за нашими даними, поверне об*єкт
   const { data = [], isLoading } = useGetGoodsQuery(count);
-  const [addProduct, { isError }] = useAddProductMutation();
+  const [addProduct] = useAddProductMutation();
   const [deleteProduct] = useDeleteProductMutation();
 
   const handleAddProduct = async () => {
